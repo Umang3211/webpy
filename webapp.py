@@ -11,6 +11,7 @@ tab1, tab2 = st.tabs(["HOME","MYMODEL"])
 
 with tab1:
     st.title("Umang")
+    st.image("abc.jpg")
 
 with tab2:
     st.title("Prediction")
