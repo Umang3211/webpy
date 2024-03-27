@@ -4,7 +4,7 @@ from PIL import Image
 
 @st.cache_resource
 def mod():
-    model = YOLO("/Users/umangsharma/runs/classify/train2/weights/best.pt")
+    model = YOLO("best.pt")
     return model
 
 tab1, tab2 = st.tabs(["HOME","MYMODEL"])
