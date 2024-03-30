@@ -13,7 +13,7 @@ with tab1:
     st.title("ML Project by Umang")
     #st.title("About me")
     #st.text("My name is Umang Sharma, and I am a student at Princeton Day School, a private institution situated in the heart of Princeton. I have a passion for electrical engineering, originating from building computers. Additionally, my love for photography allows me to capture moments that tell compelling stories. I am deeply fascinated by the world of technology and constantly seek to stay updated with the latest advancements. Through my skills and expertise, I strive to make a positive impact by leveraging technology for the betterment of society."        
-    st.image("abc.jpg")
+    #st.image("abc.jpg")
 
 with tab2:
     st.title("Prediction")
