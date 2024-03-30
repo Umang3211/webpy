@@ -10,13 +10,16 @@ def mod():
 tab1, tab2 = st.tabs(["HOME","MYMODEL"])
 
 with tab1:
-    st.title("Umang")
+    st.title("ML Project by Umang")
+    st.title("About me")
+    st.text("My name is Umang Sharma, and I am a student at Princeton Day School, a private institution situated in the heart of Princeton. I have a passion for electrical engineering, originating from building computers. Additionally, my love for photography allows me to capture moments that tell compelling stories. I am deeply fascinated by the world of technology and constantly seek to stay updated with the latest advancements. Through my skills and expertise, I strive to make a positive impact by leveraging technology for the betterment of society."
+            
     st.image("abc.jpg")
 
 with tab2:
     st.title("Prediction")
-    st.markdown("U[pload Image animals to check its class")
-    img = st.file_uploader("Upload an audio file", type=["jpg", "jpeg", "png"])
+    st.markdown("Upload an image of an animal to check it what it is")
+    img = st.file_uploader("Upload an image file", type=["jpg", "jpeg", "png"])
     
     if img is not None:
         img = Image.open(img)
